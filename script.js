@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     video.onended = function() {
         video.style.display = 'none'; // Hide the first video
-        blushingText.textContent = "Are you blushing?";
+        blushingText.textContent = "Are you blushing Celine?";
         textContainer.style.display = 'block'; // Show the text
         setTimeout(function() {
             textContainer.style.display = 'none'; // Hide the text again

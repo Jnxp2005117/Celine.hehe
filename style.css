@@ -1,0 +1,27 @@
+/* Make container occupy the full screen */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Position fixed to take up entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Make videos full screen */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#textContainer {
+    position:relative;
+    z-index: 1;
+}
